@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    left: 37%;
+    border: 3px solid beige;
+    border-radius: 5%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 45px;
+}
+
+img {
+    border-radius: 5%;
+}
+
+label {
+    font-weight: bold;
+}
+
+figcaption {
+    text-align: center;
+    padding: 7px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.gamingBtns {
+    display: flex;
+    justify-content: center;
+}
+
+.gamingButton {
+    opacity: 80%;
+    color: white;
+    border-radius: 6%;
+    padding: 13px;
+    flex-basis: 34%;
+    font-size: 0.9em;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.select-selected {
+    background-color: white;
+}
+
+.score {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2em;
+    border: 5px solid beige;
+    padding: 5px;
+}
+
+.gamingOptions{
+    display: block;
+
+}
